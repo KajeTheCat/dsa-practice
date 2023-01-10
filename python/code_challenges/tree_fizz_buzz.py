@@ -1,5 +1,7 @@
 from data_structures.binary_tree import BinaryTree
-from data_structures.queue import Queue
+from queue import Queue
+from data_structures.kary_tree import Node
+import copy
 
 def fizz_buzz_tree(tree, Node = None):
     new_tree = copy.deepcopy(tree)
